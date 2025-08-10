@@ -96,7 +96,7 @@ module.exports = grammar({
 
     _identifier: _ => /[\w-][\w.-]*/,
 
-    _escape: _ => /\\[abeEfnrtv\\]/,
+    _escape: _ => /\\[nrt0\\vf`"]/,
 
     number: _ => /\d+/,
 

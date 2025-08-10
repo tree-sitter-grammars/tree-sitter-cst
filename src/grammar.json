@@ -371,7 +371,7 @@
     },
     "_escape": {
       "type": "PATTERN",
-      "value": "\\\\[abeEfnrtv\\\\]"
+      "value": "\\\\[nrt0\\\\vf`\"]"
     },
     "number": {
       "type": "PATTERN",

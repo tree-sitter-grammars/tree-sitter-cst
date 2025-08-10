@@ -483,11 +483,10 @@ static bool ts_lex(TSLexer *lexer, TSStateId state) {
     case 17:
       ACCEPT_TOKEN(aux_sym_content_token1);
       ADVANCE_MAP(
-        'E', 29,
+        '"', 29,
+        '0', 29,
         '\\', 29,
-        'a', 29,
-        'b', 29,
-        'e', 29,
+        '`', 29,
         'f', 29,
         'n', 29,
         'r', 29,
