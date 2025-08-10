@@ -1,0 +1,654 @@
+==================
+CST without errors
+==================
+
+0:0  - 4:0    translation_unit
+0:0  - 3:1      function_definition
+0:0  - 0:3        type: primitive_type `int`
+0:4  - 0:32       declarator: function_declarator
+0:4  - 0:8          declarator: identifier `main`
+0:8  - 0:32         parameters: parameter_list
+0:8  - 0:9            "("
+0:9  - 0:17           parameter_declaration
+0:9  - 0:12             type: primitive_type `int`
+0:13 - 0:17             declarator: identifier `argc`
+0:17 - 0:18           ","
+0:19 - 0:31           parameter_declaration
+0:19 - 0:23             type: primitive_type `char`
+0:24 - 0:31             declarator: pointer_declarator
+0:24 - 0:25               "*"
+0:25 - 0:31               declarator: array_declarator
+0:25 - 0:29                 declarator: identifier `argv`
+0:29 - 0:30                 "["
+0:30 - 0:31                 "]"
+0:31 - 0:32           ")"
+1:0  - 3:1        body: compound_statement
+1:0  - 1:1          "{"
+2:4  - 2:24         return_statement
+2:4  - 2:10           "return"
+2:11 - 2:23           identifier `EXIT_SUCCESS`
+2:23 - 2:24           ";"
+3:0  - 3:1          "}"
+
+---
+
+(cst
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind)
+    (text
+      (content)))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind)
+    (text
+      (content)))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind)
+    (text
+      (content)))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind)
+    (text
+      (content)))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind)
+    (text
+      (content)))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind)
+    (text
+      (content)))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (kind)
+    (text
+      (content)))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content)))
+
+=====================
+CST with missing node
+=====================
+
+0:0  - 1:0    •translation_unit
+0:0  - 0:32     •declaration
+0:0  - 0:3         type: primitive_type `int`
+0:4  - 0:32        declarator: function_declarator
+0:4  - 0:8           declarator: identifier `main`
+0:8  - 0:32          parameters: parameter_list
+0:8  - 0:9             "("
+0:9  - 0:17            parameter_declaration
+0:9  - 0:12              type: primitive_type `int`
+0:13 - 0:17              declarator: identifier `argc`
+0:17 - 0:18           ","
+0:19 - 0:31           parameter_declaration
+0:19 - 0:23             type: primitive_type `char`
+0:24 - 0:31             declarator: pointer_declarator
+0:24 - 0:25               "*"
+0:25 - 0:31               declarator: array_declarator
+0:25 - 0:29                 declarator: identifier `argv`
+0:29 - 0:30                 "["
+0:30 - 0:31                 "]"
+0:31 - 0:32           ")"
+0:32 - 0:32       MISSING: ";"
+
+---
+
+(cst
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind)
+    (text
+      (content)))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind)
+    (text
+      (content)))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind)
+    (text
+      (content)))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind)
+    (text
+      (content)))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind)
+    (text
+      (content)))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind)
+    (text
+      (content)))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (missing
+    (literal
+      (content))))
+
+===================
+CST with error node
+===================
+
+0:0  - 1:0    •translation_unit
+0:0  - 0:18     •ERROR
+0:0  - 0:3         type: primitive_type `int`
+0:4  - 0:8         identifier `main`
+0:8  - 0:9         "("
+0:9  - 0:17        parameter_declaration
+0:9  - 0:12          type: primitive_type `int`
+0:13 - 0:17          declarator: identifier `argc`
+0:17 - 0:18       ","
+
+---
+
+(cst
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (error)
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind)
+    (text
+      (content)))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (kind)
+    (text
+      (content)))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (kind))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind)
+    (text
+      (content)))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (node
+    (field)
+    (kind)
+    (text
+      (content)))
+  (range
+    start: (position
+      row: (number)
+      column: (number))
+    end: (position
+      row: (number)
+      column: (number)))
+  (literal
+    (content)))

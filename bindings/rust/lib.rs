@@ -5,6 +5,10 @@
 //!
 //! ```
 //! let code = r#"
+//! 0:0 - 1:0   translation_unit
+//! 0:0 - 0:3     expression_statement
+//! 0:0 - 0:2        number_literal `42`
+//! 0:2 - 0:3        ";"
 //! "#;
 //! let mut parser = tree_sitter::Parser::new();
 //! let language = tree_sitter_cst::LANGUAGE;
