@@ -1,0 +1,30 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "cst",
+      "title": "CST",
+      "camelcase": "CST",
+      "scope": "text.cst",
+      "injection-regex": "^cst$",
+      "class-name": "TreeSitterCST",
+      "highlights": "queries/highlights.scm"
+    }
+  ],
+  "metadata": {
+    "description": "CST grammar for tree-sitter",
+    "links": {
+      "repository": "https://github.com/tree-sitter-grammars/tree-sitter-cst",
+      "funding": "https://github.com/sponsors/ObserverOfTime"
+    },
+    "version": "0.1.0",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "ObserverOfTime",
+        "email": "chronobserver@disroot.org"
+      }
+    ],
+    "namespace": "io.github.tree-sitter-grammars"
+  }
+}
